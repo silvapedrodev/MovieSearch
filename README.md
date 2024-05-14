@@ -1,10 +1,13 @@
-<div>
-  <img src=""></img>
-  <h1>Movie Search</h1>
-</div>
+
 
 # Movie Search 🍿🎬🔎
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/killera12/Analisador_Numeros/blob/main/LICENSE)
+
+<br>
+
+
+<img src="./assets/img/logo.svg" width="150px"></img>
+
 
 <h3 align="center">Status: 🚀 Finished</h3>
 
