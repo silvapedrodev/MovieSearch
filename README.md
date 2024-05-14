@@ -1,5 +1,3 @@
-
-
 # Movie Search 🍿🎬🔎
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/killera12/Analisador_Numeros/blob/main/LICENSE)
 
