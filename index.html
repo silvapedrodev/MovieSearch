@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search</title>
+  
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/media-queries.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>
+  <div id="app">
+    <div class="modal-error">
+      <div class="alert">
+        <div>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <span>Error</span>
+        </div>
+        <p></p>
+        <button>OK</button>
+      </div>
+    </div>
+
+    <header>
+      <img src="./assets/img/logo.svg" alt="logo-page">
+
+      <div>
+        <label for="switch" class="switch">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="custom-svg ">
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https:// fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"/>
+          </svg>
+          <input type="checkbox" id="switch" class="sr-only">
+          <!-- <span>Save</span> -->
+        </label>
+      </div>
+    </header>
+
+    <div class="content">
+      <h1>Which movie do you want to search for?</h1>
+      <div class="input-wrapper">
+        <label for="input-search" class="sr-only">Search movie</label>
+        <input type="text" id="input-search" placeholder="Movie or IMDb ID">
+        <button class="btnSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+
+    <div class="result">
+    
+    </div>
+  </div>
+
+  <footer>
+    <p>Designed and coded with  ❤️ by Pedro.S</p>
+    <a href="https://github.com/silvapedrodev" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </footer>
+</body>
+</html>

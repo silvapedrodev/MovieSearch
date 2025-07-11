@@ -1,0 +1,68 @@
+/* Typical Device breakpoints
+  -----------------------------
+
+  telas pequenas (XS): Menos de 576px
+  Celular (SM): 576px - 767px
+  Tablet (MD): 768px - 991px
+  Desktop (LG): 992px - 1199px
+  Telas grandes (XL): 1200px e acima
+  */
+
+  @media screen and (min-width:440px){
+
+    .content h1 {
+      font-size: 2.4rem;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 3.5rem;
+    }
+
+    .alert {
+      width: 38rem;
+      height: 18rem;
+    
+      padding: 2rem;
+      border-radius: 1rem;
+      margin-top: -25vh;
+    
+    }
+
+    #genre span{
+      font-size: 1.6rem;
+      padding: .6rem 1.4rem;
+    }
+  }
+
+  @media screen and (min-width: 640px){
+    .poster {
+      display: grid;
+      column-gap: 1.5rem;
+    }
+    
+    .poster img {
+      grid-column: 1;
+      grid-row: 1 / span 3; 
+    }
+    
+    #genre {
+      grid-column: 1; 
+      grid-row: 4; 
+    }
+    
+    .poster  p {
+      grid-column: 2; 
+      grid-row: 1; 
+    }
+    
+    .imdb {
+      grid-column: 2; 
+      grid-row: 2; 
+    }
+
+    .imdbInfo {
+      margin-bottom: 4rem;
+    }
+    
+  }
